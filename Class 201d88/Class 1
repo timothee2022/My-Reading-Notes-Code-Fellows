@@ -1,0 +1,23 @@
+# Here is my reading notes for Class 1
+
+1. HTML attribute is a piece of markup  language used to adjust the display of an HTML element.
+An attribute should have:
+
+* A space between it and the element name. (For an element with more than one attribute, the attributes should be separated by spaces too.)
+* The attribute name, followed by an equal sign.
+* An attribute value, wrapped with opening and closing quote marks.
+
+2. The first step of designing a website is to know what you want to accomplish. What needs to be done and what order to reach the goal the website is design for.
+
+3. HTTP is an application protocol that defines a language for clients and servers to speak to each other.
+This is how it works:
+Everytime we type a web address into our browser, the browser gors to the DSN server and find the real address the server that the website lives on> The browser sends an HTTP request message to the server (asking to send a copy of the website to the requester).
+This message and all other data is sent across your internet connection using Tgit aCP/IP. When approves, the server sends a "200 OK' message which means "Of course you can look at that website! Here it is". And then the browser assembles the small chunks into a complete web page and display it to the requester.
+
+4. When browser send the resquest to the DSN server for HTML files, the HTML files contains links element referencing external CSS and JavaScript scripts. The browser parses HTML first and send the request to the server for any CSS & JS files it has found rom the link. The browser then builds the DOM tree that applies the CSS and JS to the webpage content.
+
+5. String is a sequence o characters used to represent text and number is a numeric data type.
+
+6. A variable is a container for a value, like a number we might use in a sum, or a string that we might use as part of a sentence. Variables are important in JS to store information (such as name, username)
+
+Please visit the following link to access my live URL: <https://timothee2022.github.io/Code-201-Reading-Notes/>

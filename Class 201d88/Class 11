@@ -1,0 +1,41 @@
+Reading Notes 11
+
+Today reading notes will be about using Audio, Video, Images
+
+* Video and audio on the web
+Web developers have wanted to use video and audio on the Web for a long time, ever since the early 2000s when we started to have bandwidth fast enough to support any kind of video (video files are much larger than text or even images.) In the early days, native web technologies such as HTML didn't have the ability to embed video and audio on the Web, so proprietary (or plugin-based) technologies like Flash — and later, Silverlight (both of which are now obsolete) — became popular for handling such content. This kind of technology worked OK, but it had a number of problems, including not working well with HTML/CSS features, security issues, and accessibility issues.
+
+A native solution would solve much of this if implemented correctly. Fortunately, a few years later the HTML5 specification had such features added, with the <video> and <audio> elements, and some shiny new JavaScript APIs for controlling them. We'll not be looking at JavaScript here — just the basic foundations that can be achieved with HTML.
+
+We won't be teaching you how to produce audio and video files — that requires a completely different skillset. We have provided you with sample audio and video files and example code for your own experimentation, in case you are unable to get hold of your own.
+"Quoting from the reading Material"
+
+* Here are the use of some control element:
+src
+In the same way as for the <img> element, the src (source) attribute contains a path to the video you want to embed. It works in exactly the same way.
+
+controls
+Users must be able to control video and audio playback (it's especially critical for people who have epilepsy.) You must either use the controls attribute to include the browser's own control interface, or build your interface using the appropriate JavaScript API. At a minimum, the interface must include a way to start and stop the media, and to adjust the volume.src
+In the same way as for the <img> element, the src (source) attribute contains a path to the video you want to embed. It works in exactly the same way.
+
+controls
+Users must be able to control video and audio playback (it's especially critical for people who have epilepsy.) You must either use the controls attribute to include the browser's own control interface, or build you
+r interface using the appropriate JavaScript API. At a minimum, the interface must include a way to start and stop the media, and to adjust the volume.
+"Quoting from the reading Material"
+
+* Here are some audio and video features:
+
+1. width and height
+You can control the video size either with these attributes or with CSS. In both cases, videos maintain their native width-height ratio — known as the aspect ratio. If the aspect ratio is not maintained by the sizes you set, the video will grow to fill the space horizontally, and the unfilled space will just be given a solid background color by default.
+
+2. autoplay
+Makes the audio or video start playing right away, while the rest of the page is loading. You are advised not to use autoplaying video (or audio) on your sites, because users can find it really annoying.
+
+3. loop
+Makes the video (or audio) start playing again whenever it finishes. This can also be annoying, so only use if really necessary.
+
+4. muted
+Causes the media to play with the sound turned off by default.
+
+5. poster
+The URL of an image which will be displayed before the video is played. It is intended to be used for a splash screen or advertising screen.

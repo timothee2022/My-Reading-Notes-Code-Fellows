@@ -1,0 +1,19 @@
+
+Here is my reading notes for Class 7
+
+1. Modeling: 
+A domain model is needed to articulate, verify and validate the understanding of a specific problem among various stakeholders. 
+As a communication tool, it defines a vocabulary that can be used within and between both technical and business teams.
+"Quoting from the reading material"
+
+2. HTML Table Basics
+* Here are 3 HTML table elements: <th>, <td>, and <tr>.
+* Tables shouldn't be used for page layouts because they are: Slow to render as the browser needs to download most - if not all - of the table to render it properly. 
+They require more HTML than non-table layouts which means slower loading and rendering, as well as an increased bandwidth usage.
+"Quoting from webmaster.stackexchange.com"
+
+3. Introducing Constructors
+Constructors, which concretely use a single class to create objects and return a new instance of the class, are abstracted by factories, which also create objects but can do so in various ways, using multiple classes or different allocation schemes such as an object pool.
+"Quoting from google.com"
+
+For live access to my webpage, please visit: <https://timothee2022.github.io/Code-201-Reading-Notes/>

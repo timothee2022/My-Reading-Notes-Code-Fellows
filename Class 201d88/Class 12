@@ -1,0 +1,39 @@
+Read: Class 12
+
+Her is my reading notes for Class 12
+
+1.JavaScript Canvas
+
+* Introduction to the HTML5 Canvas element
+HTML5 features the <canvas> element that allows you to draw 2D graphics using JavaScript.
+
+The <canvas> element requires at least two attributes: width and height that specify the size of the canvas:
+<canvas width="500" height="300" id="canvas"></canvas>
+
+"Quoting from the reading material"
+
+* Fallback content
+Unlike the <img> element, The <canvas> element requires the closing tag </canvas>. Any content between the opening and closing tags is fallback content that will display only if the browser doesn’t support the <canvas> element
+
+"Quoting from the reading material"
+
+* The rendering context
+Initially, the canvas is blank. To draw something, you need to access the rendering context and use it to draw on the canvas.
+
+The <canvas> element features the getContext() method that returns a render context object.
+
+The getContext() takes one argument which is the type of context. For example, you use the "2d" to get a 2D rendering context object, which is an instance of the CanvasRenderingContext2D interface.
+
+The 2D rendering context allows you to draw shapes, text, images, and other objects.
+
+The following example shows how to select the canvas element using the querySelector() method and access the drawing context by calling its getContext() method:
+let canvas = document.querySelector('#canvas');
+let ctx = main.getContext('2d');
+
+"Quoting from the reading material"
+
+
+2. Chart.js Documentation
+
+* Different type of Chart: Area Chart, Bar Chart, Bubble Chart, line Chart, Radar Chart, Scatter Chart, Polar Area Chart.
+

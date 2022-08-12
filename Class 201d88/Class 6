@@ -1,0 +1,25 @@
+Introduction To The DOM
+
+1. The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. 
+The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.
+
+"Quoting from the reading material"
+
+2. DOM is not a programming language but JavaScript does need DOM to have model or notion web pages, HTML documents, SVG documents, and their component parts.
+
+
+JavaScript Object Basics
+
+1. JavaScript object are use to keep properties and/or methods in the same data strcuture when convenient. 
+An object is a collection of properties, where each propery has a key (name) and a value.
+
+2. An advantage of creating object literals is to help create multiple objects
+
+3. Objects represent a special data type that is mutable and can be used to store a collection of data (rather than just a single value). Arrays are a special type of variable that is also mutable and can also be used to store a list of values.
+
+"Quoting from medium.com"
+
+4. 
+let loud = obj.dog; (This is an example of dot notation. You can access properties on an object by specifying the name of the object, followed by a dot (period) followed by the property name)
+
+let loud = obj['dog']; (This is an example of Bracket notation. You can access properties on an object by specifying the name of the object followed by the property name in brackets)

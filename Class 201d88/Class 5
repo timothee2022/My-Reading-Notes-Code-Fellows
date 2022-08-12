@@ -1,0 +1,28 @@
+Here is my reading notes for Class 4
+
+Source & Reference: Reading Material and w3schools.com
+
+HTML
+
+* The alt attribute specifies an alternate text for an area, if the image cannot be displayed.
+
+The alt attribute provides alternative information for an image if a user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader).
+"Quoting from w3school.com"
+
+* To improve the accessibility of an image of HTML, we will need to chose the appropirate and prioritize the text alternatives.
+
+* PNG will be the best  screenshop format and other types of imagery where there’s not a lot of color data.
+
+* SVG is a Vector image format; ideal for user interface elements, icons, diagrams, etc., that must be drawn accurately at different sizes while GIF is a 
+ood choice for simple images and animations. Prefer PNG for lossless and indexed still images, and consider WebP, AVIF or APNG for animation sequences.
+"Quoting from the reading material"
+
+
+CSS
+
+* The color property sets the color of the foreground content of the selected elements, which is usually the text, but can also include a couple of other things, such as an underline while
+the background color applies to thre whole content.
+
+* For my firend request, I will apply a color to the backgroung and depending on the HTML structure, I will aply some colors and structure to each HTML elements. And aslo, I will be designing the border an margin on the webpage.
+ 
+For live access to my webpage, please visit: <https://timothee2022.github.io/Code-201-Reading-Notes/>

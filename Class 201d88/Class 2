@@ -1,0 +1,47 @@
+Here are take away from Reading 2:
+
+As a software developer, it is important to understand the basics fundamentals of HTML, CSS and JavaScript. 
+
+* Semantic elements in HTML are important to give our content the correct meaning, function or appearance. (Ref reading source)
+
+* On HTML, we have six heading levels available
+
+<h1>Heading1</h1>
+<h2>Heading2</h2>
+<h3>Heading3</h3>
+<h4>Heading4</h4>
+<h5>Heading5</h5>
+<h6>Heading6</h6>
+
+* <sub> is used to reprensent subscript that identifies the variable in a family of variables.
+<sup> is used to represent supscript.
+
+* <abbr> is used for abbreviation and for full expansion need to be included inside a title attribute.
+
+* There are three way to apply CSS to our HTML: external, internal and inline stylesheet.
+
+* Using inline styles with CSS is the opposite of a best pratice. You may require multiple edits within a single web page for one styling change. The best pratice is to separate code and content and make it easier to read and understand. (Ref reading source)
+
+* Using the code presented (Ref reading source)
+    1. Representing the selector: h2{}
+    2. Components are the CSS declarations: color; padding
+    3. Components are considered properties: black; 5px
+
+* String data type is a sequence of text enclosed in single quote mark.
+
+* Here are 4 types of JavaScript operators: (Ref reading source)
+    1.Addition +
+    2. Assignment =
+    3. Strict equality ===
+    4. Subtraction -
+
+* 'else if" is used when the outcome expected is more than tho choices presented.
+
+* Here are 3 differents types of comparaisons operators: (Ref reading source)
+    1. === and !== — test if one value is identical to, or not identical to, another.
+    2. < and > — test if one value is less than or greater than another.
+    3. <= and >= — test if one value is less than or equal to, or greater than or equal to, another.
+
+* "&&" allows you to chain together two or more expressions so that all of them have to individually evaluate to tue while "||" allows you to chain together two or more expressions so that one or more of them have to individually evaluate to true (Ref reading source)
+
+
