@@ -1,0 +1,17 @@
+My Class 4 Reading Notes
+
+Controlled Components
+In HTML, form elements such as <input>, <textarea>, and <select> typically maintain their own state and update it based on user input. In React, mutable state is typically kept in the state property of components, and only updated with setState().
+
+We can combine the two by making the React state be the “single source of truth”. Then the React component that renders a form also controls what happens in that form on subsequent user input. An input form element whose value is controlled by React in this way is called a “controlled component”.
+"Quoting from the reading material"
+
+2. Handling Multiple Inputs
+When you need to handle multiple controlled input elements, you can add a name attribute to each element and let the handler function choose what to do based on the value of event.target.name.
+"Quoting from the reading material"
+
+3. The ternary operator is an operator that exists in some programming languages, which takes three operands rather than the typical one or two that most operators use. It provides a way to shorten a simple if else block.
+"Quoting from the reading material"
+
+For live access to my page, please visit the following link:
+<https://github.com/timothee2022/My-Reading-Notes-Code-Fellows.git>
