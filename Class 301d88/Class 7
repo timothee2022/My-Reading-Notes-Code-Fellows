@@ -1,0 +1,26 @@
+My Class 7 Reading Notes
+
+1. Roy Thomas Fielding (born 1965) is an American computer scientist, one of the principal authors of the HTTP specification and the originator of the Representational State Transfer (REST) architectural style. He is an authority on computer network architecture and co-founded the Apache HTTP Server project.
+
+2. The Hypertext Transfer Protocol (HTTP) is an application layer protocol in the Internet protocol suite model for distributed, collaborative, hypermedia information systems.[1] HTTP is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access, for example by a mouse click or by tapping the screen in a web browser.
+
+Development of HTTP was initiated by Tim Berners-Lee at CERN in 1989 and summarized in a simple document describing the behavior of a client and a server using the first HTTP protocol version that was named 0.9.[2]
+
+That first version of HTTP protocol soon evolved into a more elaborated version that was the first draft toward a far future version 1.0.
+
+Development of early HTTP Requests for Comments (RFCs) started a few years later and it was a coordinated effort by the Internet Engineering Task Force (IETF) and the World Wide Web Consortium (W3C), with work later moving to the IETF.
+
+HTTP/1 was finalized and fully documented (as version 1.0) in 1996. It evolved (as version 1.1) in 1997 and then its specifications were updated in 1999 and in 2014.
+"Quoting from Wikipedia"
+
+3. GET is used to retrieve and request data from a specified resource in a server. GET is one of the most popular HTTP request techniques. In simple words, the GET method is used to retrieve whatever information is identified by the Request-URL.
+"Quoting from google search"
+
+4. The POST process checks computer hardware, like RAM (random access memory), hard drive, CD-ROM drive, keyboard, etc., to make sure all are working correctly. If all hardware passes the POST, the computer continues the boot up process and may generate a single beep sound as well.
+"Quoting from google search"
+
+5. PUT method is used to update resource available on the server. Typically, it replaces whatever exists at the target URL with something else. You can use it to make a new resource or overwrite an existing one.
+"Quoting from google search"
+
+6. The birth control patch is a type of contraception that contains the hormones estrogen and progestin. You wear the patch to avoid becoming pregnant. Once a week for three weeks, you place a small patch on your skin, so that you wear a patch for a total of 21 days.
+"Quoting from google search"
