@@ -1,0 +1,18 @@
+My Class 9 Reading Notes
+
+1. Functional programming means using functions to the best effect for creating clean and maintainable software. This article illustrates the concepts behind the functional paradigm with practical examples in JavaScript and Java.
+
+2. Pure functions are essential for a variety of purposes, including functional programming, reliable concurrency, and React+Redux apps. But what does “pure function” mean?
+
+A pure function is a function which:
+
+Given the same input, always returns the same output.
+Produces no side effects.
+
+3. Pure functions are much easier to read and reason about. All relevant inputs and dependencies are provided as parameters, so no effects are observed that alter variables outside of the set of inputs. This means that we can quickly understand a function and its dependencies, just by reading the function's declaration
+
+4. In functional programming, referential transparency is generally defined as the fact that an expression, in a program, may be replaced by its value (or anything having the same value) without changing the result of the program. This implies that methods should always return the same value for a given argument, without having any other effect. This functional programming concept also applies to imperative programming, though, and can help you make your code clearer.
+
+
+For live access to my page, please visit the following link:
+<https://github.com/timothee2022/My-Reading-Notes-Code-Fellows.git>
