@@ -1,0 +1,52 @@
+My Class 12 Reading Notes
+
+1. Status ClassesPermalink
+If we understand the class a status code is in, we can locate problems more quickly.
+
+100 - 199Permalink
+These are informational status codes; they usually tell the client that the header part of the request has been received and the server will try to comply with a transmission demand of the client. Like using a different protocol or telling the client that its request will fail before they start sending the body.
+
+200 - 299Permalink
+These are the success codes. They tell the client that its request was accepted. In case of asynchronous processing of a request (202), this doesn’t mean the request was successfully processed only that it met all validation requirements at the time of sending.
+
+300 - 399Permalink
+These are redirection codes. They tell the client that the resource they are requesting isn’t available at the expected location anymore. This can have multiple reasons, be temporary or permanent, but the client has to issue a request to the new location.
+
+400 - 499Permalink
+These are the client error codes. They are all about invalid requests a client sent to a server. There are several causes to this, timeouts, wrong URI, missing authentication, etc. A client is sending incorrect input and should confirm the input parameters are correct before retrying the request.
+
+500 - 599Permalink
+These are the server error codes. Often they indicate problems with overwhelmed servers or unreachable servers behind proxies, but sometimes they can be directly related to client requests that trigger error exceptions on the server. These errors can be temporary or permanent. Usually it’s best for the client to retry the same request.
+"Quoting from the reading material"
+
+2. 202 Accepted - Often used for asynchronous processing. This code tells the client that the request was valid, but its processing will finish sometime in the future. The response body should include an URL to the finished resource with some information about when it will be available, or an URL to some monitoring endpoint that tells the client when the resource is available.
+"Quoting from the reading material"
+
+3. 308 Permanent Redirect - This tells the client to use another URL to access the resource and not use the current URL anymore. It’s helpful when we have multiple endpoints for one resource, but don’t want to implement reading from all of them.
+"Quoting from the reading material"
+
+4. 404 means Not Found. This can be because of a wrong URL used by the client to some endpoint not being set up right on the backend.
+
+5. The HTTP 403 Forbidden response status code indicates that the server understands the request but refuses to authorize it
+
+6. Middleware is software that provides common services and capabilities to applications outside of what’s offered by the operating system. Data management, application services, messaging, authentication, and API management are all commonly handled by middleware.
+
+Middleware helps developers build applications more efficiently. It acts like the connective tissue between applications, data, and users.
+
+For organizations with multi-cloud and containerized environments, middleware can make it cost-effective to develop and run applications at scale.
+"Quoting from redhat.com"
+
+7. Using express.json()
+It parses incoming JSON requests and puts the parsed data in req.
+
+8. PUT is a method of modifying resource where the client sends data that updates the entire resource . PATCH is a method of modifying resources where the client sends partial data that is to be updated without modifying the entire data
+
+9. Your schemas can define default values for certain paths. If you create a new document without that path set, the default will kick in.
+
+Note: Mongoose only applies a default if the value of the path is strictly undefined.
+
+10. The HTTP status code 500 is a generic error response. It means that the server encountered an unexpected condition that prevented it from fulfilling the request. This error is usually returned by the server when no other error code is suitable
+
+
+For live access to my page, please visit the following link:
+<https://github.com/timothee2022/My-Reading-Notes-Code-Fellows.git>

@@ -1,0 +1,31 @@
+My Class 10 Reading Notes
+
+1. The call stack is primarily used for function invocation (call). Since the call stack is single, function(s) execution, is done, one at a time, from top to bottom. It means the call stack is synchronous.
+"Quoting from the reading material"
+
+2. LIFO: When we say that the call stack, operates by the data structure principle of Last In, First Out, it means that the last function that gets pushed into the stack is the first to be pop out, when the function returns.
+
+Let us take a look at a code sample to demonstrate LIFO by printing a stack trace error to the console.
+"Quoting from the reading material"
+
+3. Understanding how the call stack works explains how functions actually "work" including the following.
+
+The difference between function arguments and variables used to call functions
+Why several variables with the same name but residing in different function can co-exist
+Why there are certain limitations on what functions can do
+Why local variables that are not initialized might have any value contained in them.
+"Quoting from the reading material"
+
+4. What causes a stack overflow?
+A stack overflow occurs when there is a recursive function (a function that calls itself) without an exit point. The browser (hosting environment) has a maximum stack call that it can accomodate before throwing a stack error.
+
+Here is an example:
+function callMyself(){
+  callMyself();
+}
+
+callMyself();
+"Quoting from the reading material"
+
+For live access to my page, please visit the following link:
+<https://github.com/timothee2022/My-Reading-Notes-Code-Fellows.git>
