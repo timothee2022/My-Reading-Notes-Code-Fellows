@@ -63,3 +63,5 @@ You can call join to subscribe the socket to a given channel:
 
 "Quoting from the reading material"
 
+    For live access to my page, please visit the following link:
+<https://github.com/timothee2022/My-Reading-Notes-Code-Fellows.git>
