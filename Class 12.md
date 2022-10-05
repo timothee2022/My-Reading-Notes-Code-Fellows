@@ -62,5 +62,5 @@ Socket.IO is a JavaScript library built on top of WebSocket… and other technol
 * Social Feeds
 * Location-based Applications
 
-    For live access to my page, please visit the following link: 
-https://github.com/timothee2022/My-Reading-Notes-Code-Fellows.git
+    For live access to my page, please visit the following link:
+<https://github.com/timothee2022/My-Reading-Notes-Code-Fellows.git>
