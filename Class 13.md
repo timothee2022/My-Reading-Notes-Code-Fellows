@@ -19,14 +19,13 @@ npm install socket.io
 
 The main idea behind Socket.IO is that you can send and receive any events you want, with any data you want. Any objects that can be encoded as JSON will do, and binary data is supported too.
 
-Let’s make it so that when the user types in a message, the server gets it as a chat message event. 
+Let’s make it so that when the user types in a message, the server gets it as a chat message event.
 
 3. Emitting events
 
 The main idea behind Socket.IO is that you can send and receive any events you want, with any data you want. Any objects that can be encoded as JSON will do, and binary data is supported too.
 
 Let’s make it so that when the user types in a message, the server gets it as a chat message event. The script section in index.html should now look as follows:
-
 
 [Rooms](https://socket.io/docs/v4/rooms)
 
@@ -39,7 +38,6 @@ You can call join to subscribe the socket to a given channel:
 ![Joining and leaving](./Joining%20and%20leaving.PNG)
 "Quoting from the reading material"
 
-
 [Namespaces](https://socket.io/docs/v4/namespaces/)
 
 1. A Namespace is a communication channel that allows you to split the logic of your application over a single shared connection (also called "multiplexing").
@@ -47,6 +45,7 @@ You can call join to subscribe the socket to a given channel:
 "Quoting from the reading material"
 
 2. Each namespace has its own:
+
 * [Event handlers](https://socket.io/docs/v4/listening-to-events/)
 
 * [Rooms](https://socket.io/docs/v4/rooms/)
