@@ -1,6 +1,6 @@
-# Class 33
+# Class 32
 
-## Here is my Class 33 reading notes
+## Here is my Class 32 reading notes
 
 [Hooks and Context example](https://medium.com/swlh/snackbars-in-react-an-exercise-in-hooks-and-context-299b43fd2a2b)
 
