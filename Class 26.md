@@ -14,7 +14,6 @@
     It helps the developers create quick and single-page applications and interfaces. React is a component-based library created by Facebook. It creates different user interfaces and manages different component states. Multiple components and tools can make complex applications without losing the state in DOM.
     "Quoting from the reading material"
 
-
 [Introducing JSX](https://facebook.github.io/react/docs/introducing-jsx.html)
 
 1. JSX is a syntax extension to JavaScript. We recommend using it with React to describe what the UI should look like. JSX may remind you of a template language, but it comes with the full power of JavaScript.
@@ -58,7 +57,6 @@ It is safe to embed user input in JSX: const title = response.potentiallyMalicio
 [react cheatsheet](https://devhints.io/react)
 
 [another react cheatsheet](https://reactcheatsheet.com/)
-
 
     For live access to my page, please visit the following link:
 <https://github.com/timothee2022/My-Reading-Notes-Code-Fellows.git>
