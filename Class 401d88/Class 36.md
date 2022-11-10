@@ -1,6 +1,6 @@
-# Class 34
+# Class 36
 
-## Here is my Class 34 reading notes
+## Here is my Class 36 reading notes
 
 [Dan Abramov Redux Tutorials](https://egghead.io/courses/getting-started-with-redux)
 
