@@ -23,3 +23,7 @@ We come to a point that profit lead companies to forget how some projects can af
 Big Tech Company are always looking to make profit no matters how it may affects their customers. I do beleive that if the comaniy behave or promote products your beliefs do not align with it, it is better to look somewhere else. 
 
 
+    For live access to my page, please visit the following link:
+<https://github.com/timothee2022/My-Reading-Notes-Code-Fellows.git>
+
+
